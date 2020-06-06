@@ -98,9 +98,6 @@ section .container .user .formBx form input[type="submit"] {
     transition: 0.5s;
 }
 
-section .container .signinBx {
-    pointer-events: none;
-}
 section .container.active .signinBx {
     pointer-events: none;
 }
