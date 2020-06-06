@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>responsive login form</title>
+</head>
+<body>
+    <section>
+        <div class="container hello">
+            <div class="user signupBx">
+                <div class="imgBx"><img src="/img/book.jpg.jpg" alt="book"></div>
+                <div class="formBx">
+                    <form action="">
+                        <h2>Sign up</h2>
+                        <input type="text" name="" placeholder="username">
+                        <input type="password" name="" placeholder="password">
+                        <input type="submit" name="" placeholder="login">
+                        <p class="signup">Don't have an account<a href="javascript:void(0)" onclick="toggleForm()">액션</a></p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="user signinBx">
+                <div class="formBx">
+                    <form action="">
+                        <h2>Sign In</h2>
+                        <input type="text" name="" placeholder="username">
+                        <input type="password" name="" placeholder="password">
+                        <input type="submit" name="" placeholder="login">
+                        <p class="signup">Don't have an account <a href="javascript:void(0)" onclick="toggleForm()">액션</a></p>
+                    </form>
+                </div>
+                <div class="imgBx"><img src="/img/book2.jpg.jpg" alt="book"></div>
+            </div>
+        </div>
+    </section>
+    <script>
+        const container = document.querySelector('.hello');
+
+        function toggleForm() {
+            container.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
