@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+h2 span {
+  /* position: relative; */
+  display: inline-flex;
+  color: #03a9f4;
+}
+
+h2 span:nth-child(odd) {
+  letter-spacing: -1em;
+  color: #414141;
+  overflow: hidden;
+  line-height: 1em;
+  transition: 0.5s ease-in-out;
+}
+
+h2:hover span:nth-child(odd) {
+  letter-spacing: 0;
+}
+
+h2 span:nth-child(2) {
+  margin-right: 10px;
+}
