@@ -65,6 +65,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  background: red;
   box-shadow: 15px 15px 0 var(--blue-0);
 }
 .navigation ul li.active a::after {
@@ -75,6 +76,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  background: red;
   box-shadow: 15px -15px 0 var(--blue-0);
 }
 .navigation ul li a .icon {
