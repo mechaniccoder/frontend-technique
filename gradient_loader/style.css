@@ -12,10 +12,6 @@ body {
   background: #000;
   min-height: 100vh;
 }
-.text {
-  color: #fff;
-  animation: animateH 1s linear infinite;
-}
 .loader {
   position: relative;
   width: 150px;
@@ -23,24 +19,6 @@ body {
   border-radius: 50%;
   background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);
   animation: animate 1s linear infinite;
-}
-
-@keyframes animateH {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(-20deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  75% {
-    transform: rotate(20deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
 }
 
 @keyframes animate {
