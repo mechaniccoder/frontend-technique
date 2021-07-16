@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: #383838;
+}
+.card {
+  position: relative;
+  background: #fff;
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+}
+.swiper-slide {
+  width: 400px;
+}
+.card .content {
+  width: 400px;
+  padding: 20px;
+}
+.card .content a {
+  display: inline-block;
+  margin: 10px 0 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid #262626;
+  color: #262626;
+  font-weight: 600;
+}
+.card .slider-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: #000;
+}
+.card .slider-text h3 {
+  color: #fff;
+  font-size: 3em;
+}
+.swiper-slide:nth-child(1) .slider-text {
+  background: #2196f3;
+}
+.swiper-slide:nth-child(2) .slider-text {
+  background: #e91e63;
+}
+.swiper-slide:nth-child(3) .slider-text {
+  background: #c3d41a;
+}
+.swiper-slide:nth-child(4) .slider-text {
+  background: #ff9800;
+}
+.swiper-slide:nth-child(5) .slider-text {
+  background: #c33ada;
+}
